@@ -1,5 +1,10 @@
 # MadnessLoader-2.0
 This is some like mobile plugin loader
 
-# Installing and configuring workspace
-1. Install on your computer "VS Code"
+# Установка
+1. Скачиваем и устанавливаем VS Code 
+2. Устанавливаем плагин C/C++
+3. Качаем этот репозиторий и размещаем в папку C:/Android/ (если нету папки создаем)
+4. Качаем с оф сайта NDK 16b
+5. Распаковываем в ту же папку и переименовываем в "NDK-16"
+
