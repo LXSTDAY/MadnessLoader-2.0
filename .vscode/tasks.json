@@ -1,0 +1,43 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "NDK Build",
+            "type": "shell",
+            "command": "ndk-build",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+
+        ,
+
+        {
+            "label": "PM DebugLog",
+            "type": "shell",
+            "command": "adb logcat PM:I *:S",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+
+        ,
+
+        {
+            "label": "SAMP DebugLog",
+            "type": "shell",
+            "command": "adb logcat AXL:I *:S",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
